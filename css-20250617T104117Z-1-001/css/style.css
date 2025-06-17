@@ -1,0 +1,44 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+#hero-section {
+    background: linear-gradient(to right, rgba(255, 196, 0, 0.6), rgba(255, 87, 34, 0.8)), url('/assets/image/logo/shoeBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100dvh;
+}
+
+#hero-product-section {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(34, 193, 195, 0.7)), url('/assets/image/logo/shoeBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.product-img {
+  aspect-ratio: 5 / 4;
+}
+
+#about-img {
+  max-width: 250px;
+}
+
+.icons {
+  font-size: 60px;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.card, .btn, .form-control {
+    border-radius: 12px;
+}
+.section-bg {
+    background-color: #f9f9f9;
+}
