@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+
+
+header {
+  background: var(--bs-dark);
+}
+
+main {
+  background: var(--bs-gray-400);
+}
+
+.my-carousel {
+  background: var(--bs-gray-400);
+}
+
+.my-cards {
+  background: var(--bs-gray-600);
+}
